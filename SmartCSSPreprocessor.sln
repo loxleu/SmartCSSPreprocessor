@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scp-core", "scp-core\scp-core.csproj", "{F37B2C2F-758B-439F-9E62-BA8C052FEE7E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B058A09F-2398-4C7A-9074-2D3C7A6CA869} = {B058A09F-2398-4C7A-9074-2D3C7A6CA869}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scp-library", "scp-library\scp-library.csproj", "{B058A09F-2398-4C7A-9074-2D3C7A6CA869}"
 EndProject
