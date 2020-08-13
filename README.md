@@ -6,7 +6,9 @@ Because SCP envolves concepts of other languages like Sass, LESS and Stylus, and
 Smart CSS Preprocessor is fully written in C#, and some parts are going to be written in C++. Currently it is available only on Windows, but in the future we will port the compiler to other platforms. We use Visual Studio Community and Visual Studio Code as IDEs.
 ### How do I compile my Smart code into CSS?
 You need to install the compiler from this repository and write a command in the command line. Here is an example of the command
-    C:\Users\Username\> smart FILENAME.smart FILENAME.zip
+```cmd
+C:\Users\Username\> smart FILENAME.smart FILENAME.zip
+```
 The compiler will put the CSS and the JS files to the zip archive. You will need to bind these files to your document using `<script>` and `<link>` tags respectively. Note that some features might not work without JS - make sure it is bound to the document and JavaScript is enabled in your browser. In addition, there will be an ability to specify a HTML file, and the compiler will add required tags to the document and put the files in a subdirectory!
 ### Where can I find the docs for the SCP?
 You can find description of all elements of Smart's syntax in the repository wiki.
